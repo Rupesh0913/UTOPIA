@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Utopia</title>
+    <link
+    href="https://fonts.googleapis.com/css2?family=Sen&display=swap"
+    rel="stylesheet"
+  />
+    <link rel="icon" type="image/png" href="../images/utopia_logo.png" />
+    <link rel="stylesheet" type="text/css" href="../css/clothes.css" />
+</head>
+<body>
+    <div class="top-offers-banner">
+        <div class="banner-box">
+          <p><i>Ends Tonight!</i></p>
+          <a href="#">Shop Now</a>
+          <p>20% OFF SKINCARE & SELECT FRAGRANCE</p>
+          <a href="#">Details</a>
+        </div>
+      </div>
+  
+      <div class="signup-section">
+        <div class="container signup-container">
+          <div class="signup-box">
+            <div>
+              <img src="../images/icons/SVG/globe1.svg" alt="language" />
+              <h5>English($)</h5>
+            </div>
+            <div>
+              <img src="../images/icons/SVG/user.svg" alt="signIn/signUp.png" />
+              <h5>Sign In/Sign Up</h5>
+            </div> 
+          </div>
+        </div>
+      </div>
+  
+      <div class="head-nav">
+          <div class="container ">
+              <div class="left">
+                  <img src="../images/utopia_logo.png" alt="logo" height="70px" width="70px">
+                  <h3>
+                      UTOPIAN<span>living</span>
+                  </h3>
+              </div>
+              <div class="right">
+                  <div class="search">
+                      <input type="text" id="search-box" placeholder="Search...">
+                      <img src="../images/icons/SVG/search.svg" alt="search">
+                  </div>
+                  
+                  <img src="../images/icons/PNG/cart.png" alt="cart">
+              </div>
+          </div>
+      </div>
+  
+      <div class="main-nav">
+        <div class="container">
+          <div class="nav-link">
+            <a href="../index.html">HOME</a>
+            <a href="#">CLOTHES</a>
+            <a href="">HOME & FURNITUE</a>
+            <a href="">BEAUTY AND WELLNESS</a>
+            <a href="">GARDEN AND OUTDOORS</a>
+            <a href="" style="color:red">GIFTS</a>
+            <a href="">SALE</a>
+          </div>
+        </div>
+      </div>
+
+    <div class="container">
+        <div class="filter">
+            <div class="f1 position">
+                <h4>dresses</h4>
+                <img src="../images/clothes/desses.jpg" alt="">
+            </div>
+            <div class="f2 position">
+                <h4>pants</h4>
+                <img src="../images/clothes/pants.jpg" alt="">
+            </div>
+          <div class="f3 position">
+            <h4>jeans</h4>
+            <img src="../images/clothes/jeans.jpg" alt="">
+          </div>
+          <div class="f4 position">
+            <h4>jackets</h4>
+            <img src="../images/clothes/jackets.jpg" alt="">
+          </div>
+          <div class="f5 position">
+            <h4>tops</h4>
+            <img src="../images/clothes/tops.jpg" alt="">
+          </div>
+          <div class="f6 position">
+            <h4>sweaters</h4>
+            <img src="../images/clothes/sweaters.jpg" alt="">
+          </div>
+        </div>
+
+        <div class="content">
+            <div class="side-nav">
+                <h2>Browse By:-</h2>
+                <span></span>
+                <a href="#">clothings</a>
+                <a href="">Toprated</a>
+                <a href="">Active wear</a>
+                <a href="" id="dresses">Dress</a>
+                <a href="" id="pants">Pants</a>
+                <a href="" id="jackets">Jackets</a>
+                <a href="" id="tops">Tops</a>
+                <a href="" id="jeans">Jeans</a>
+                <a href="" id="sweaters">Sweater</a>
+            </div>
+    
+    
+            <div class="container-content">
+                <div class="container-top">
+                    <div class="left"><p>Women Clothings</p></div>
+                    <div class="right">
+                        <label for="Sort">Sort:</label>
+                        <select id="filter">
+                            <option value=""></option>
+                            <option value="Low to High">Low to High</option>
+                            <option value="Higth to Low">Higth to Low</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="content-container-body"></div>
+                <hr>
+
+                <div class="about">
+                    <p>Women's Clothing</p>
+                    <h4>Check out our stylish clothing collection at Anthropologie including unique dresses, jackets, jeans & sweaters. For dresses, choose from popular styles like slip, long sleeve & shift. For jackets & sweaters treat yourself to an eye-catching trench jacket, poncho or sweater vests. We also have many jean styles and colors including washes from light to dark and rises from high to low. Shop the latest fashion trends today.</h4>
+                  </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="container">
+          <div class="footer-top">
+            <div class="footer-content">
+              <h3>Signup For Email</h3>
+              <p>Receive early access to new arrivals, sales, exclusive content, events and much more!</p>
+            </div>
+            <div class="footer-input-box">
+              <form>
+                <label for="email">Email Address* </label>
+              <input type="text" id="email-box">
+              <button id="submit">Submit</button>
+              </form>
+            </div>
+          </div>
+         
+          <p>By signing up, you will receive Utopia offers, promotions and other commercial messages. You are also agreeing to utopia’s Privacy Policy. You may unsubscribe at any time.</p>
+          <p>2022 URBN.com. All Rights Reserved.</p>
+        </div>
+      </div>
+    <script>
+        
+
+        async function getdata(){
+            try{
+                let res=await fetch("./clothes.json");
+                let data=await res.json();
+                filterdata(data)
+            }
+            catch (e){
+                console.log("something is wrong!!"+e)
+            }
+        }
+        getdata();
+        
+        // sorting
+
+        let filter=document.querySelector("#filter");
+        
+        filter.addEventListener("change",()=>{
+            getdata();
+        })
+        function filterdata(data){
+            let filteredVal=filter.value;
+            if(filteredVal=="")
+            displaydata(data)
+            else if(filteredVal=="Low to High")
+            {
+                const Assending=data.sort((a,b)=>parseFloat(a.price)-parseFloat(b.price))
+                displaydata(Assending)
+            }
+            else if(filteredVal=="Higth to Low")
+            {
+                const Descending=data.sort((a,b)=>parseFloat(b.price)-parseFloat(a.price))
+                displaydata(Descending)
+            }
+
+        }
+        // sorting
+
+        //filter
+        
+        //filter
+
+        
+        
+        function displaydata(data){
+            let content=document.querySelector(".content-container-body")
+            content.innerHTML ="";
+            // console.log(data)
+            data.forEach(function(ele,i){
+                let card=document.createElement("div");
+                card.className="card"
+
+                let img=document.createElement("img");
+                img.src=ele.image;
+
+                let name=document.createElement("p")
+                name.textContent=ele.name;
+
+                let price=document.createElement("p")
+                price.innerText=ele.price;
+
+                card.append(img,name,price);
+                content.append(card);
+            })
+
+        }
+    </script>
+</body>
+</html>
