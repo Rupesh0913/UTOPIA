@@ -10,7 +10,7 @@
     rel="stylesheet"
   />
     <link rel="icon" type="image/png" href="../images/utopia_logo.png" />
-    <link rel="stylesheet" type="text/css" href="../css/clothes.css" />
+    <link rel="stylesheet" type="text/css" href="../css/beauty.css" />
 </head>
 <body>
     <div class="top-offers-banner">
@@ -61,7 +61,7 @@
           <div class="nav-link">
             <a href="../index.html">HOME</a>
             <a href="#">CLOTHES</a>
-            <a href="./beauty.html">BEAUTY AND WELLNESS</a>
+            <a href="">BEAUTY AND WELLNESS</a>
             <a href="">GARDEN AND OUTDOORS</a>
             <a href="">HOME & FURNITUE</a>
             <a href="" style="color:red">GIFTS</a>
@@ -73,28 +73,28 @@
     <div class="container">
         <div class="filter">
             <div class="f1 position">
-                <h4 class="clothes">Dress</h4>
-                <img src="../images/clothes/desses.jpg" alt="">
+                <h4 class="beauty">Top-Rated</h4>
+                <img src="../images/beauty/beauty-filter-container.jpeg" alt="">
             </div>
             <div class="f2 position">
-                <h4 class="clothes">Pants</h4>
-                <img src="../images/clothes/pants.jpg" alt="">
+                <h4 class="beauty">Fragrance</h4>
+                <img src="../images/beauty/beauty-filter-container2.jpg" alt="">
             </div>
           <div class="f3 position">
-            <h4 class="clothes">Jeans</h4>
-            <img src="../images/clothes/jeans.jpg" alt="">
+            <h4 class="beauty">Makeup</h4>
+            <img src="../images/beauty/beauty-filter-container3.jpeg" alt="">
           </div>
           <div class="f4 position">
-            <h4 class="clothes">Jackets</h4>
-            <img src="../images/clothes/jackets.jpg" alt="">
+            <h4 class="beauty">Skincare</h4>
+            <img src="../images/beauty/beauty-filter-container.jpeg" alt="">
           </div>
           <div class="f5 position">
-            <h4 class="clothes">Tops</h4>
-            <img src="../images/clothes/tops.jpg" alt="">
+            <h4 class="beauty">Bath & Body</h4>
+            <img src="../images/beauty/beauty-filter-container-4.jpeg" alt="">
           </div>
           <div class="f6 position">
-            <h4 class="clothes">Sweaters</h4>
-            <img src="../images/clothes/sweaters.jpg" alt="">
+            <h4 class="beauty">Haircare</h4>
+            <img src="../images/beauty/beauty-filter-container3.jpeg" alt="">
           </div>
         </div>
 
@@ -102,21 +102,19 @@
             <div class="side-nav">
                 <h2>Browse By:-</h2>
                 <span></span>
-                <button class="clothes">clothings</button>
-                <button class="clothes">Toprated</button>
-                <button class="clothes">Active wear</button>
-                <button class="clothes">Dress</button>
-                <button class="clothes">Pants</button>
-                <button class="clothes">Jackets</button>
-                <button class="clothes">Tops</button>
-                <button class="clothes">Jeans</button>
-                <button class="clothes">Sweaters</button>
+                <button class="beauty">Top-Rated</button>
+                <button class="beauty">Candles & Fragrance</button>
+                <button class="beauty">Makeup</button>
+                <button class="beauty">Fragrance</button>
+                <button class="beauty">Skincare</button>
+                <button class="beauty">Bath & Body</button>
+                <button class="beauty">Haircare</button>
             </div>
     
     
             <div class="container-content">
                 <div class="container-top">
-                    <div class="left"><p>Women Clothings</p></div>
+                    <div class="left"><p>Beauty & Wellness</p></div>
                     <div class="right">
                         <label for="Sort">Sort:</label>
                         <select id="sort">
@@ -205,10 +203,10 @@
         // sorting
        
         //filter
-        let clothes=document.getElementsByClassName("clothes");
-        for(let i=0;i<clothes.length;i++){
-          clothes[i].addEventListener("click",()=>{
-            current = clothes[i].innerText
+        let beauty=document.getElementsByClassName("beauty");
+        for(let i=0;i<beauty.length;i++){
+          beauty[i].addEventListener("click",()=>{
+            current = beauty[i].innerText
             filteredData(global)
         })
         }
