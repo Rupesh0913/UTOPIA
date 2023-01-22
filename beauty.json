@@ -3,288 +3,336 @@
         "image":"https://images.urbndata.com/is/image/Anthropologie/78860947_067_a?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
         "name":" Voluspa Roses Embossed Jar Candle",
         "category":"Candles & Fragrance",
-        "price":"34$"
+        "price":"34",
+        "id":"1"
     },
     {
         "image":"https://images.urbndata.com/is/image/Anthropologie/45549695AA_040_a10?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
         "name":" Calle Candle Holder",
         "category":"Candles & Fragrance",
-        "price":"20$"
+        "price":"20",
+        "id":"2"
     },
     {
         "image":"https://images.urbndata.com/is/image/Anthropologie/78732542_011_b10?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
         "name":"Calais Candle",
         "category":"Candles & Fragrance",
-        "price":"40$"
+        "price":"40",
+        "id":"3"
     },
     {
         "image":"https://images.urbndata.com/is/image/Anthropologie/78936507_012_b10?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
         "name":" Tonal Taper Candles, Set of 4",
         "category":"Candles & Fragrance",
-        "price":"25$"
+        "price":"25",
+        "id":"4"
     },
     {
         "image":"https://images.urbndata.com/is/image/Anthropologie/78988185_010_b10?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
         "name":"Capri Blue Sandstone Glass Jar Candle",
         "category":"Candles & Fragrance",
-        "price":"38$"
+        "price":"38",
+        "id":"5"
     },
     {
         "image":"https://images.urbndata.com/is/image/Anthropologie/79024717_010_b11?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
         "name":"Capri Blue Sandstone Mini Glass Jar Candle",
         "category":"Candles & Fragrance",
-        "price":"28$"
+        "price":"28",
+        "id":"6"
     },
     {
         "image":"https://images.urbndata.com/is/image/Anthropologie/76188598_014_b2?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
         "name":" 18 Classic Taper Candles, Set of 4",
         "category":"Candles & Fragrance",
-        "price":"30$"
+        "price":"30",
+        "id":"7"
     },
     {
-        "image":"",
-        "name":"",
+        "image":"https://images.urbndata.com/is/image/Anthropologie/79029468_010_a10?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
+        "name":"Minka Candle",
         "category":"Candles & Fragrance",
-        "price":""
+        "price":"58",
+        "id":"8"
     },
     {
-        "image":"",
-        "name":"",
+        "image":"https://images.urbndata.com/is/image/Anthropologie/81668774_014_b?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
+        "name":"Olivia Palermo Beauty Matte Lipstick",
         "category":"Makeup",
-        "price":""
+        "price":"38",
+        "id":"9"
     },
     {
-        "image":"",
-        "name":"",
+        "image":"https://images.urbndata.com/is/image/Anthropologie/81135709_066_b?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
+        "name":"NCLA Love Bug Lip Treatment Duo",
         "category":"Makeup",
-        "price":""
+        "price":"24",
+        "id":"10"
     },
     {
-        "image":"",
-        "name":"",
+        "image":"https://images.urbndata.com/is/image/Anthropologie/37393923_066_b?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
+        "name":"Smith's Rosebud Salve Tube",
         "category":"Makeup",
-        "price":""
+        "price":"6",
+        "id":"11"
     },
     {
-        "image":"",
-        "name":"",
+        "image":"https://images.urbndata.com/is/image/Anthropologie/81135725_066_b?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
+        "name":"NCLA Love Duo Nail Polish Set",
         "category":"Makeup",
-        "price":""
+        "price":"24",
+        "id":"12"
     },
     {
-        "image":"",
-        "name":"",
+        "image":"https://images.urbndata.com/is/image/Anthropologie/81668824_040_b10?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
+        "name":"Olivia Palermo Beauty Eyeshadow Palette",
         "category":"Makeup",
-        "price":""
+        "price":"58",
+        "id":"13"
     },
     {
-        "image":"",
-        "name":"",
+        "image":"https://images.urbndata.com/is/image/Anthropologie/82251372_054_b?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
+        "name":"Make Beauty Skin Mimetic Microsuede Blush",
         "category":"Makeup",
-        "price":""
+        "price":"28",
+        "id":"14"
     },
     {
-        "image":"",
-        "name":"",
+        "image":"https://images.urbndata.com/is/image/Anthropologie/82251273_054_b?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
+        "name":"Make Beauty Serum Balm Intense",
         "category":"Makeup",
-        "price":""
+        "price":"26",
+        "id":"15"
     },
     {
-        "image":"",
-        "name":"",
+        "image":"https://images.urbndata.com/is/image/Anthropologie/81668899_030_b?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
+        "name":" Olivia Palermo Beauty Pre-Show Mattifying Mist",
         "category":"Makeup",
-        "price":""
+        "price":"35",
+        "id":"16"
     },
     {
-        "image":"",
-        "name":"",
+        "image":"https://images.urbndata.com/is/image/Anthropologie/37405149_005_b?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
+        "name":"Outremer Mini Eau De Toilette",
         "category":"Fragrance",
-        "price":""
+        "price":"12",
+        "id":"17"
     },
     {
-        "image":"",
-        "name":"",
+        "image":"https://images.urbndata.com/is/image/Anthropologie/37397353_072_b?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
+        "name":"Tocca Mini Eau De Parfum",
         "category":"Fragrance",
-        "price":""
+        "price":"25",
+        "id":"18"
     },
     {
-        "image":"",
-        "name":"",
+        "image":"https://images.urbndata.com/is/image/Anthropologie/80101033_080_a11?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
+        "name":" Nest Fragrances Perfume Oil Rollerball",
         "category":"Fragrance",
-        "price":""
+        "price":"35",
+        "id":"19"
     },
     {
-        "image":"",
-        "name":"",
+        "image":"https://images.urbndata.com/is/image/Anthropologie/80100878_001_a?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
+        "name":"Nest Fragrances Mini Rollerball Trio",
         "category":"Fragrance",
-        "price":""
+        "price":"23",
+        "id":"20"
     },
     {
-        "image":"",
-        "name":"",
+        "image":"https://images.urbndata.com/is/image/Anthropologie/81828519_060_a?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
+        "name":"Tocca Gia Eau De Parfum",
         "category":"Fragrance",
-        "price":""
+        "price":"80",
+        "id":"21"
     },
     {
-        "image":"",
-        "name":"",
+        "image":"https://images.urbndata.com/is/image/Anthropologie/49215957_042_b10?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
+        "name":"Nest Fragrances Travel Spray",
         "category":"Fragrance",
-        "price":""
+        "price":"30",
+        "id":"22"
     },
     {
-        "image":"",
-        "name":"",
+        "image":"https://images.urbndata.com/is/image/Anthropologie/82187238_000_b?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
+        "name":"Phlur Eau De Parfum Discovery Set",
         "category":"Fragrance",
-        "price":""
+        "price":"35",
+        "id":"23"
     },
     {
-        "image":"",
-        "name":"",
+        "image":"https://images.urbndata.com/is/image/Anthropologie/81237463_040_b?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
+        "name":" Comptoir Sud Pacifique Eau de Toilette 10ml",
         "category":"Fragrance",
-        "price":""
+        "price":"26",
+        "id":"24"
     },
     {
-        "image":"",
-        "name":"",
+        "image":"https://images.urbndata.com/is/image/Anthropologie/58913013_007_b?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
+        "name":"Sunday Riley Jewel Box Gift Set",
         "category":"Skincare",
-        "price":""
+        "price":"32",
+        "id":"25"
     },
     {
-        "image":"",
-        "name":"",
+        "image":"https://images.urbndata.com/is/image/Anthropologie/79043402_066_a?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
+        "name":"NuFACE Mini + Toning Set",
         "category":"Skincare",
-        "price":""
+        "price":"245",
+        "id":"26"
     },
     {
-        "image":"",
-        "name":"",
+        "image":"https://images.urbndata.com/is/image/Anthropologie/41540519_010_b?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
+        "name":"Sunday Riley Good Genes All-In-One",
         "category":"Skincare",
-        "price":""
+        "price":"122",
+        "id":"27"
     },
     {
-        "image":"",
-        "name":"",
+        "image":"https://images.urbndata.com/is/image/Anthropologie/81200958_010_b?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
+        "name":"High Performance Neck and Décolletage Treatment",
         "category":"Skincare",
-        "price":""
+        "price":"295",
+        "id":"28"
     },
     {
-        "image":"",
-        "name":"",
+        "image":"https://images.urbndata.com/is/image/Anthropologie/44499010_000_b?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
+        "name":"Lapcos Variety Mask + Exfoliating Pad Set",
         "category":"Skincare",
-        "price":""
+        "price":"26",
+        "id":"29"
     },
     {
-        "image":"",
-        "name":"",
+        "image":"https://images.urbndata.com/is/image/Anthropologie/79043402_053_b?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
+        "name":"NuFACE Mini+ Toning Set",
         "category":"Skincare",
-        "price":""
+        "price":"225",
+        "id":"30"
     },
     {
-        "image":"",
-        "name":"",
+        "image":"https://images.urbndata.com/is/image/Anthropologie/82169491_066_b?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
+        "name":" Jouer Cosmetics Slugging Balm",
         "category":"Skincare",
-        "price":""
+        "price":"30",
+        "id":"31"
     },
     {
-        "image":"",
-        "name":"",
+        "image":"https://images.urbndata.com/is/image/Anthropologie/81551806_046_a11?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
+        "name":"ELEMIS Pro-Collagen Marine Cream SPF 3",
         "category":"Skincare",
-        "price":""
+        "price":"132",
+        "id":"32"
     },
     {
-        "image":"",
-        "name":"",
+        "image":"https://images.urbndata.com/is/image/Anthropologie/78507126_037_b10?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
+        "name":"Tocca Scented Dry Body Oil",
         "category":"Bath & Body",
-        "price":""
+        "price":"54",
+        "id":"33"
     },
     {
-        "image":"",
-        "name":"",
+        "image":"https://images.urbndata.com/is/image/Anthropologie/79591640_048_b?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
+        "name":"Spongelle Holiday Star Body Buffer",
         "category":"Bath & Body",
-        "price":""
+        "price":"9",
+        "id":"34"
     },
     {
-        "image":"",
-        "name":"",
+        "image":"https://images.urbndata.com/is/image/Anthropologie/40188179_000_b?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
+        "name":"Capri Blue Volcano Hand Soap & Lotion Gift Set",
         "category":"Bath & Body",
-        "price":""
+        "price":"42",
+        "id":"35"
     },
     {
-        "image":"",
-        "name":"",
+        "image":"https://images.urbndata.com/is/image/Anthropologie/69792679_000_b?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
+        "name":" George & Viv Holiday Bar Soap",
         "category":"Bath & Body",
-        "price":""
+        "price":"12",
+        "id":"36"
     },
     {
-        "image":"",
-        "name":"",
+        "image":"https://images.urbndata.com/is/image/Anthropologie/66398348_080_b?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
+        "name":"Soleil Toujours Mineral Ally Daily Defense",
         "category":"Bath & Body",
-        "price":""
+        "price":"58",
+        "id":"37"
     },
     {
-        "image":"",
-        "name":"",
+        "image":"https://images.urbndata.com/is/image/Anthropologie/49621501_014_b?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
+        "name":"Lollia Dry Body Oil",
         "category":"Bath & Body",
-        "price":""
+        "price":"48",
+        "id":"38"
     },
     {
-        "image":"",
-        "name":"",
+        "image":"https://images.urbndata.com/is/image/Anthropologie/62885595_020_b?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
+        "name":" Lollia Hand Cream",
         "category":"Bath & Body",
-        "price":""
+        "price":"27",
+        "id":"39"
     },
     {
-        "image":"",
-        "name":"",
+        "image":"https://images.urbndata.com/is/image/Anthropologie/80151285_000_b?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
+        "name":"Lauren McIntosh Bath Bombs, Set of 4",
         "category":"Bath & Body",
-        "price":""
+        "price":"24",
+        "id":"40"
     },
     {
-        "image":"",
-        "name":"",
+        "image":"https://images.urbndata.com/is/image/Anthropologie/40334666_010_b?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
+        "name":"Slip Silk Pillowcase",
         "category":"Haircare",
-        "price":""
+        "price":"89",
+        "id":"41"
     },
     {
-        "image":"",
-        "name":"",
+        "image":"https://images.urbndata.com/is/image/Anthropologie/80424971_020_b?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
+        "name":" Emilie Heathe Creaseless Makeup Hair Clips",
         "category":"Haircare",
-        "price":""
+        "price":"25",
+        "id":"42"
     },
     {
-        "image":"",
-        "name":"",
+        "image":"https://images.urbndata.com/is/image/Anthropologie/82179599_046_b?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
+        "name":"Fekkai Clean Stylers Root Lift",
         "category":"Haircare",
-        "price":""
+        "price":"28",
+        "id":"43"
     },
     {
-        "image":"",
-        "name":"",
+        "image":"https://images.urbndata.com/is/image/Anthropologie/80338064_010_b?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
+        "name":"Straightening and Styling Iron",
         "category":"Haircare",
-        "price":""
+        "price":"190",
+        "id":"44"
     },
     {
-        "image":"",
-        "name":"",
+        "image":"https://images.urbndata.com/is/image/Anthropologie/79811618_000_b10?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
+        "name":" Emi Jay Paddle Brush",
         "category":"Haircare",
-        "price":""
+        "price":"48",
+        "id":"45"
     },
     {
-        "image":"",
-        "name":"",
+        "image":"https://images.urbndata.com/is/image/Anthropologie/78669108_050_b?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
+        "name":"Virtue Labs Flourish Conditioner",
         "category":"Haircare",
-        "price":""
+        "price":"44",
+        "id":"46"
     },
     {
-        "image":"",
-        "name":"",
+        "image":"https://images.urbndata.com/is/image/Anthropologie/68675149_007_b?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
+        "name":"Machete No. 2 Comb",
         "category":"Haircare",
-        "price":""
+        "price":"42",
+        "id":"47"
     },
     {
-        "image":"",
-        "name":"",
+        "image":"https://images.urbndata.com/is/image/Anthropologie/69274652_048_b?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
+        "name":"Fekkai Super Strength Roots-to-Ends Hair Mask",
         "category":"Haircare",
-        "price":""
+        "price":"24",
+        "id":"48"
     }
 ]

@@ -5,6 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Utopia</title>
+    
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
     <link
     href="https://fonts.googleapis.com/css2?family=Sen&display=swap"
     rel="stylesheet"
@@ -28,6 +32,9 @@
             <div>
               <img src="../images/icons/SVG/globe1.svg" alt="language" />
               <h5>English($)</h5>
+              <span class="material-symbols-outlined">
+                expand_more
+                </span>
             </div>
             <div>
               <img src="../images/icons/SVG/user.svg" alt="signIn/signUp.png" />
@@ -51,7 +58,7 @@
                       <img src="../images/icons/SVG/search.svg" id="search-btn" alt="search">
                   </div>
                   
-                  <img src="../images/icons/PNG/cart.png" alt="cart">
+                  <a href="./cart.html"><img src="../images/icons/PNG/cart.png" alt="cart"></a>
               </div>
           </div>
       </div>
@@ -59,13 +66,15 @@
       <div class="main-nav">
         <div class="container">
           <div class="nav-link">
-            <a href="../index.html">HOME</a>
-            <a href="#">CLOTHES</a>
-            <a href="./beauty.html">BEAUTY AND WELLNESS</a>
-            <a href="">GARDEN AND OUTDOORS</a>
-            <a href="">HOME & FURNITUE</a>
-            <a href="" style="color:red">GIFTS</a>
-            <a href="">SALE</a>
+             
+                <a href="../index.html">HOME</a>
+                <a href="#">CLOTHES</a>
+                <a href="./beauty.html">BEAUTY AND WELLNESS</a>
+                <a href="" class="disable">GARDEN AND OUTDOORS</a>
+                <a href=""class="disable">HOME & FURNITUE</a>
+                <a href="" style="color:red" class="disable">GIFTS</a>
+                <a href="" class="disable">SALE</a>
+             
           </div>
         </div>
       </div>
@@ -242,7 +251,8 @@
 
         // searching
         
-        
+        let cartArr=JSON.parse(localStorage.getItem("cart"))||[];
+
         function displaydata(data){
             let content=document.querySelector(".content-container-body")
             content.innerHTML ="";
@@ -253,15 +263,37 @@
                 let img=document.createElement("img");
                 img.src=ele.image;
 
+                let add=document.createElement("div")
+                add.textContent="add";
+                add.className="material-symbols-outlined";
+
                 let name=document.createElement("p")
                 name.textContent=ele.name;
 
                 let price=document.createElement("p")
-                price.innerText=ele.price;
+                price.innerText=ele.price+" ₹";
 
-                card.append(img,name,price);
+                add.addEventListener("click",()=>{
+                  if(isPresent(ele)){
+                    alert("Product Alredy In cart")
+                  }
+                  else{
+                    console.log(ele)
+                    cartArr.push({...ele,quantity:1});
+                    localStorage.setItem("cart",JSON.stringify(cartArr));
+                  }
+                })
+
+                card.append(img,add,name,price);
                 content.append(card);
             })
+            function isPresent(data){
+                for(var i=0;i<cartArr.length;i++){
+                  if(cartArr[i].id===data.id)
+                  return true;
+                }
+                return false
+            }
 
         }
     </script>
