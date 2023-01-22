@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>utopia</title>
+   
+
+   
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sen&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="image/png" href="../images/utopia_logo.png" />
+    <link rel="stylesheet" type="text/css" href="../css/cart.css" />
+  </head>
+  <body>
+
+    <div class="signup-section">
+      <div class="head-container">
+        <div class="signup-box">
+          <div>
+            <img src="../images/icons/SVG/globe1.svg" alt="language" />
+            <h5>English($)</h5>
+          </div>
+          <div>
+            <img src="../images/icons/SVG/user.svg" alt="signIn/signUp.png" />
+            <h5>Sign In/Sign Up</h5>
+          </div> 
+        </div>
+      </div>
+    </div>
+
+    <div class="head-nav">
+        <div class="head-container ">
+            <div class="left">
+                <img src="../images/utopia_logo.png" alt="logo" height="70px" width="70px">
+                <h3>
+                    UTOPIAN<span>living</span>
+                </h3>
+            </div>
+            <div class="right">
+                <img src="../images/icons/PNG/cart.png" alt="cart">
+            </div>
+        </div>
+    </div>
+
+
+    <div class="main-nav">
+      <div class="head-container">
+        <div class="nav-link">
+          <a href="../index.html">HOME</a>
+          <a href="./clothes.html">CLOTHES</a>
+          <a href="./beauty.html">BEAUTY AND WELLNESS</a>
+          <a href=""class="disable">GARDEN AND OUTDOORS</a>
+          <a href=""class="disable">HOME & FURNITUE</a>
+          <a href="" style="color:red"class="disable">GIFTS</a>
+          <a href=""class="disable">SALE</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="content-container">
+        <div class="cart-container">
+            <div class="cart-head">
+                <h2>Basket</h2>
+                <hr>
+            </div>
+            <div class="cart">
+
+            </div>
+        </div>
+
+        <div class="payment">
+            <h2>Order Summary</h2>
+            <div class="payment-box">
+                <ul>
+                    <li>Shipping<span>TBD</span></li>
+                    <li>Total<span id="total"></span></li>
+                </ul>
+                <p>pay with <img src="../images/bhim.png" alt=""></p>
+                <button>PROCEED TO CHECKOUT</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+      <div class="footer-container">
+        <div class="footer-top">
+          <div class="footer-content">
+            <h4>Signup For Email</h4>
+            <p>Receive early access to new arrivals, sales, exclusive content, events and much more!</p>
+          </div>
+          <div class="footer-input-box">
+            <form>
+              <label for="email">Email Address* </label>
+            <input type="text" id="email-box">
+            <button id="submit">Submit</button>
+            </form>
+          </div>
+        </div>
+       
+        <p>By signing up, you will receive Utopia offers, promotions and other commercial messages. You are also agreeing to utopia’s Privacy Policy. You may unsubscribe at any time.</p>
+        <p>2022 URBN.com. All Rights Reserved.</p>
+      </div>
+    </div>
+  </body>
+  <script>
+    let container = document.querySelector(".cart")
+    let products=JSON.parse(localStorage.getItem("cart"))||[];
+    let total=document.getElementById("total")
+    console.log(products)
+
+    function displaydata(data){
+        
+        container.innerHTML ="";
+            data.forEach(function(ele,i){
+                let card=document.createElement("div");
+                card.className="card"
+
+                let img=document.createElement("img");
+                img.src=ele.image;
+
+                let name=document.createElement("p")
+                name.textContent=ele.name;
+
+                let price=document.createElement("p")
+                price.innerText=ele.price+"₹";
+
+                let quantity=document.createElement("span");
+                quantity.innerText=ele.quantity;
+
+                let allbtn=document.createElement("div")
+               
+                let remove=document.createElement("button")
+                remove.innerText="Remove";
+                let increment=document.createElement("button")
+                increment.innerText="+";
+                let decrement=document.createElement("button")
+                decrement.innerHTML="-";
+
+                remove.addEventListener("click",()=>{
+                    AfterRemove=data.filter((element)=>{
+                        return element.id!==ele.id
+                    })
+                    localStorage.setItem("cart",JSON.stringify(AfterRemove))
+                    displaydata(AfterRemove);
+                })
+                increment.addEventListener("click",()=>{
+                    ele=ele.quantity++;
+                    localStorage.setItem("cart",JSON.stringify(data))
+                    displaydata(data);
+                })
+                decrement.addEventListener("click",()=>{
+                    if(ele.quantity>1)
+                    ele=ele.quantity--;
+                    localStorage.setItem("cart",JSON.stringify(data))
+                    displaydata(data);
+                })
+
+
+                allbtn.append(decrement,quantity,increment,remove)
+                card.append(img,name,price,allbtn);
+                container.append(card);
+            })
+            let sum=0
+            for(let i=0;i<data.length;i++)
+            sum+=Number(data[i].price)*data[i].quantity;
+            console.log(sum)
+
+            total.innerText=sum+" ₹";
+    }
+    displaydata(products)
+  </script>
+   
+
+  
+</html>
